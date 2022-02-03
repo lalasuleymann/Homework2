@@ -1,0 +1,9 @@
+﻿@using WebApplication2.Models
+
+<h1>Home Index</h1>
+@model List<Product>
+
+@foreach (var item in Model)
+{ 
+    <li>@item</li>
+}
